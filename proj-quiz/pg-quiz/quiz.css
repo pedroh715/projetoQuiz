@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#dff0f2, rgb(185, 210, 240));
+    
+}
+
+.answers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.answers button{
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    width: 400px;
+    height: 50px;
+    font-weight: 600;
+    border-radius: 13px;
+    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.104);
+    cursor: pointer;
+}
+
+.pergunta{
+    display: flex;
+    justify-content: center;
+    color: #16485a;
+    font-weight: 700;
+    margin-bottom: 50px;
+    font-size: 30px;
+    width: 800px;
+    text-align: center;
+}
+
+.score{
+    display: flex;
+    margin-bottom: 25px;
+    font-size: 25px;
+    color: #062764;
+    font-weight: 600;
+    flex-direction: column;
+    align-items: center;
+}
+
+.incorreta{
+    background-color: #c43333;
+    color: white;
+}
+
+.correta{
+    background-color: #19a034;
+    color: white;
+}
+
+#pontos {
+    font-size: 40px;
+}

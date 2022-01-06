@@ -1,0 +1,135 @@
+{
+    "response_code": 0,
+    "results": [
+        {
+            "id": 1,
+            "category": "Mitologia",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "De acordo com o folclore algonquiano, como alguém se transforma em um Wendigo?",
+            "answer": "Participando de canibalismo.",
+            "choices": [
+                "Mutilação excessiva de cadáveres de animais.",
+                "Realizando um ritual envolvendo assassinato.",
+                "Beber o sangue de muitos animais mortos."
+            ]
+        },
+        {
+            "id": 2,
+            "category": "Conhecimentos gerais",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "Em um funâmbulo anda?",
+            "answer": "Uma corda apertada",
+            "choices": [
+                "Vidro quebrado",
+                "Bolas",
+                "Na lua"
+            ]
+        },
+        {
+            "id": 3,
+            "category": "História",
+            "type": "multiple",
+            "difficulty": "easy",
+            "question": "O colapso da União Soviética ocorreu em que ano?",
+            "answer": "1991",
+            "choices": [
+                "1992",
+                "1891",
+                "1990"
+            ]
+        },
+        {
+            "id": 4,
+            "category": "Entretenimento: jogos de tabuleiro",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Quantos pontos vale o bloco Z no Scrabble?",
+            "answer": "10",
+            "choices": [
+                "8",
+                "5",
+                "6"
+            ]
+        },
+        {
+            "id": 5,
+            "category": "Entretenimento: Video Games",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Qual filme de terror teve uma sequência na forma de videogame lançado em 20 de agosto de 2002?",
+            "answer": "O enigma de outro mundo",
+            "choices": [
+                "Uma noite alucinante",
+                "Jogos mortais",
+                "Alien - O 8.º Passageiro"
+            ]
+        },
+        {
+            "id": 6,
+            "category": "Geografia",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Qual é a montanha mais alta do Canadá?",
+            "answer": "Monte Logan",
+            "choices": [
+                "Monte Tremblant",
+                "Montanha Whistler",
+                "Montanha Azul"
+            ]
+        },
+        {
+            "id": 7,
+            "category": "Entretenimento: Animes e Mangá",
+            "type": "multiple",
+            "difficulty": "hard",
+            "question": "Em Hunter x Hunter, os membros da família de Killua conhecidos por ser?",
+            "answer": "Assassinos",
+            "choices": [
+                "Bandidos",
+                "Caçadores",
+                "Ninjas"
+            ]
+        },
+        {
+            "id": 8,
+            "category": "Entretenimento: Animes e Mangá",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Em Pokémon: Chronicles, por que Misty tinha medo de Gyarados?",
+            "answer": "Ela rastejou para dentro de sua boca como um bebê.",
+            "choices": [
+                "Ela achou isso assustador..",
+                "Ela foi gravemente ferida por isso.",
+                "Faz parte do Bug."
+            ]
+        },
+        {
+            "id": 9,
+            "category": "Entretenimento: Video Games",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Qual desses personagens NÃO é um chefe em Crash Bash?",
+            "answer": "Ripper Roo",
+            "choices": [
+                "Papu Papu",
+                "Irmãos Komodo",
+                "Nitros Oxide"
+            ]
+        },
+        {
+            "id": 10,
+            "category": "Entretenimento: Música",
+            "type": "multiple",
+            "difficulty": "medium",
+            "question": "Qual álbum o Gorillaz lançou em 2017?",
+            "answer": "Humanz",
+            "choices": [
+                "Plastic Beach",
+                "The Fall",
+                "Demon Days"
+            ]
+        }
+    ]
+}

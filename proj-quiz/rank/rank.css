@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#dff0f2, rgb(185, 210, 240));
+}
+
+#ranks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#finalScore{
+    margin-bottom: 20px;
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    width: 400px;
+    height: 50px;
+    font-weight: 600;
+    border-radius: 13px;
+    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.104);
+    cursor: pointer;
+    text-decoration: none;
+    color: #062764;
+    background-color: white;
+}
+
+.btn:hover{
+    color: white;
+    background-color: #0c9599;
+    transform: translateY(-0.1rem);
+    transition: transform 0.5s;
+    transition: 0.5s;
+}
+
+#rankList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+#rankList li{
+    margin-bottom: 13px;
+}
+
+.high-score{
+    font-size: 25px;
+    font-weight: 600;
+    color: #062764;
+}
+
+.high-score:hover{
+    transform:scale(1.025);
+    transition: transform 125ms;
+}

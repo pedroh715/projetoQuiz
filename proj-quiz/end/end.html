@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parabéns!</title>
+    <link rel="stylesheet" href="/proj-quiz/end/end.css">
+</head>
+<body>
+    <div class="container">
+        <div id="end">
+            <h1>Sua pontuação foi de: <span id="finalScore">0</span> pontos</h1>
+            <form action="">
+                <input 
+                    type="text" 
+                    name="username" 
+                    id="username" 
+                    placeholder="Seu nome"
+                />
+                <button type="submit" class="btn" id="saveScoreBtn" onclick="saveHighScore(event)" disabled>Salvar minha pontuação</button>
+                <a href="/proj-quiz/pg-quiz/quiz.html" class="btn">Jogar novamente</a>
+                <a href="/proj-quiz/pg-inicial/index.html" class="btn">Voltar para a tela inicial</a>
+            </form>
+        </div>
+    </div>    
+
+    <script src="/proj-quiz/end/end.js"></script>
+</body>
+</html>
