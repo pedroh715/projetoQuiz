@@ -178,7 +178,7 @@ start = () => {
 novaQuestao = () => {
     if (questDisponiveis.length === 0 || questCount >= results.length) {
         localStorage.setItem('mostRecentScore', score)
-        return window.location.assign('/proj-quiz/end/end.html')
+        return window.location.assign("../end/end.html")
     }
     
     console.log(score)
